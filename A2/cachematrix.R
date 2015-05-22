@@ -29,7 +29,9 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Write a short comment describing this function:
 #The cacheSolve function calculates the inverse of the generated matrix.
 #The generated matrix is created with the makeChacheMatrix function.
-#The first step of makeCacheMAtrix is to check the values and verify if the #inverse was calculated otherwise the inverse calculation is calculated 	#automatically at the setinverse function. 
+#The first step of makeCacheMAtrix is to check the values and verify if the 
+#inverse was calculated otherwise the inverse calculation is calculated 	
+#automatically at the setinverse function. 
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
